@@ -6,6 +6,8 @@ html{
 	background-size: cover;	
 }
 body{
+	width: 100%;
+	min-height: 100vh;
 	background: url(header.jpg) no-repeat center center fixed; 
 	background-size: cover;	
 }
@@ -37,7 +39,7 @@ h1{
 	padding: 1rem 2rem;
 }
 
-div hr{
+div hr.list-unstyled{
 	color: rgba(255, 120, 0, 1);
 	height : 5px !important;
 	max-width: 65px;
@@ -46,4 +48,9 @@ div hr{
 	background-color: rgba(255, 120, 0, 1);
 	opacity: 1;
 	margin: auto;
+	box-sizing : content-box;
+}
+
+div.buffer{
+	height: 3em
 }
